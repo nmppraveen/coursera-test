@@ -1,0 +1,86 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: sans-serif;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 190%;
+}
+
+.sec
+{
+	background-color: #909090;
+	position: relative;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #0f0f0f;
+	text-align: justify;
+}
+
+span
+{
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 3px 40px;
+	border: 1px solid #0f0f0f;
+	font-size: 130%;
+}
+
+#text1
+{
+	background-color: orange;
+}
+
+#text2
+{
+	background-color: yellow;
+}
+
+#text3
+{
+	background-color: red;
+}
+
+p
+{
+	margin-top: 35px;
+}
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* Cell phone view */
+@media (max-width: 767px)  {
+  
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+}
